@@ -1,0 +1,39 @@
+<section id="reservation">
+    <h2 class="section-title">Book a Session</h2>
+    <form action="https://formspree.io/f/xjkrjnvq" method="POST" style="max-width: 500px; margin: auto;">
+      <label>
+        Your Email:<br />
+        <input type="email" name="email" required style="width: 100%; padding: 10px; margin-bottom: 15px;" />
+      </label><br />
+  
+      <label>
+        Your Message:<br />
+        <textarea name="message" required style="width: 100%; padding: 10px; margin-bottom: 15px;"></textarea>
+      </label><br />
+  
+      <!-- Optional: Add name, date, and session type -->
+      <label>
+        Your Name:<br />
+        <input type="text" name="name" required style="width: 100%; padding: 10px; margin-bottom: 15px;" />
+      </label><br />
+  
+      <label>
+        Preferred Date:<br />
+        <input type="date" name="date" required style="width: 100%; padding: 10px; margin-bottom: 15px;" />
+      </label><br />
+  
+      <label>
+        Session Type:<br />
+        <select name="type" required style="width: 100%; padding: 10px; margin-bottom: 15px;">
+          <option value="">Select a type</option>
+          <option value="portrait">Portrait</option>
+          <option value="wedding">Wedding</option>
+          <option value="event">Event</option>
+          <option value="fashion">Fashion</option>
+        </select>
+      </label><br />
+  
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+  
